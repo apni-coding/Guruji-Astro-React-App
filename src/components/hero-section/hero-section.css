@@ -1,0 +1,55 @@
+.custom-container {
+    background: linear-gradient(to bottom left, #A7480060, #00000070);
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    color: #FDFDFD;
+    padding-top: 10rem;
+    /* font-family: 'Poppins'; */
+    flex-direction: column;
+}
+
+.text-container {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    height: 50%;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size: 4rem;
+    font-weight: 700;
+}
+
+h4 {
+    width: 75%;
+    word-wrap: normal;
+    font-size: 16px;
+    font-weight: 400;
+    margin: 0 auto;
+}
+
+.heroSection .slick-dots li button:before {
+    font-size: 20px;
+    color: white !important;
+}
+
+.heroSection .slick-dots {
+    bottom: 25px !important;
+}
+
+.display {
+    width: 90%;
+    margin-left: 5%;
+    border-radius: 0px !important;
+    margin-bottom: 5rem;
+    background-color: #A74800;
+
+}
+
+.display .slick-dots {
+    padding-bottom: none !important;
+}

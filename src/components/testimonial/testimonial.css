@@ -1,0 +1,44 @@
+#main-slider-container {
+        height: 55vh;
+            padding: 3rem 5rem;
+            width: 100%;
+}
+
+#slider {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.slider-card {
+    height: 375px;
+    margin: 0px -2.5rem;
+}
+
+.active {
+    position: relative;
+    z-index: 30;
+
+}
+
+.slider-card:has(+ .active) {
+    width: 340px;
+    height: 300px;
+    opacity: 25;
+}
+.slider-card:has(+ * + .active) {
+    width: 340px;
+    height: 300px;
+    opacity: 25;
+}
+.active + div {
+    width: 340px;
+    height: 300px;
+    opacity: 25;
+}
+
+.active+div+div {
+    width: 340px;
+    height: 340px;
+    opacity: 25;
+}
+

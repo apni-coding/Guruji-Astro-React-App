@@ -1,0 +1,11 @@
+.profile-image {
+    width: 5rem;
+    height: 5rem;
+    border: 1px solid lightgray;
+    border-radius: 50%;
+}
+
+.center-image {
+    width: 7rem;
+    height: 7rem;
+}

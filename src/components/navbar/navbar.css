@@ -1,0 +1,12 @@
+.navbar .css-pa7cn {
+    width: 60%;
+    justify-content: space-between;
+}
+
+.navbar .css-1y6oau7 {
+    color: white;
+}
+
+.navbar .css-1y6oau7:nth-child(1) {
+    color: #A74800;
+}
